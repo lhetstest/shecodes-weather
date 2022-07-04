@@ -1,0 +1,95 @@
+body {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+  
+  .box {
+    background-color: #ebf5ea;
+    border: 3px solid #95ce98;
+    margin: 3px 0px;
+  }
+  
+  .names {
+    padding: 8px;
+    margin-left: 6px;
+  }
+  
+  .main .card-title {
+    margin-top: 10px;
+    margin-left: 8px;
+  }
+  
+  .card.main {
+    border: transparent;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .form-control {
+    width: 220px;
+    height: 32px;
+  }
+  
+  .submit-btn {
+    padding: 1px;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .card-img {
+    width: 80%;
+  }
+  
+  .card-body {
+    padding-left: 8px;
+  }
+  
+  .next {
+    padding-right: 20px;
+  }
+  
+  .size {
+    height: 60px;
+    margin-top: 7px;
+  }
+  
+  .temperature {
+    font-size: 50px;
+    padding-left: 10px;
+    position: relative;
+  }
+  
+  a.celsius,
+  a.fahrenheit {
+    text-decoration: none;
+    color: rgb(53, 47, 47);
+  }
+  
+  .temp-metric {
+    font-size: 50px;
+  }
+  
+  input.checkbox {
+    display: none;
+  }
+  
+  input:checked + label::after {
+    content: " ℃";
+  }
+  
+  input:not(:checked) + label::after {
+    content: " ℉";
+  }
+  

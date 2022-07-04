@@ -1,2 +1,2 @@
 # shecodes-weather
-theproject weather forcast, Angular
+the project weather forcast, Angular
